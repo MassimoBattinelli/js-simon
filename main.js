@@ -11,6 +11,6 @@ for (var i = 0; i < quantiNumeri; i++) {
 //stampo numeri generati
 var numberToRemember = numeriEsatti.join(" ");
 console.log(numberToRemember);
-alert("Memorizza questi numeri\n" + numberToRemember + "\nQuando ti senti pronto premi invio");
+alert("Memorizza questi numeri\n" + numberToRemember + "\n");
 //richiamo funzione dopo 30 secondi
 setTimeout(checkNumber, 3000);
